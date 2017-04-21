@@ -1,5 +1,6 @@
 [debug] Other repositories:
 [debug] Default repositories:
+[debug] no default cache defined: set to /home/knoldus/.ivy2/cache
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#page-count-spark$sbt_2.10;1.0
 [debug] 	confs: [default]
@@ -1774,9 +1775,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.13!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 525ms :: artifacts dl 12ms
+[debug] :: resolution report :: resolve 572ms :: artifacts dl 15ms
 [debug] 	report for default#page-count-spark$sbt_2.10;1.0 default produced in /home/knoldus/page-count-spark/target/resolution-cache/reports/default-page-count-spark$sbt_2.10-default.xml
-[debug] 	resolve done (525ms resolve - 12ms download)
+[debug] 	resolve done (572ms resolve - 15ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#page-count-spark$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2470,6 +2471,6 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.13!interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.13!logging.jar(src)
-[debug] :: resolution report :: resolve 116ms :: artifacts dl 14ms
+[debug] :: resolution report :: resolve 192ms :: artifacts dl 21ms
 [debug] 	report for default#page-count-spark$sources_2.10;1.0 default produced in /home/knoldus/page-count-spark/target/resolution-cache/reports/default-page-count-spark$sources_2.10-default.xml
-[debug] 	resolve done (116ms resolve - 14ms download)
+[debug] 	resolve done (192ms resolve - 21ms download)

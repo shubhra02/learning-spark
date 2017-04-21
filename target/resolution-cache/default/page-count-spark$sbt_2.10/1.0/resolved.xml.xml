@@ -4,7 +4,7 @@
 		module="page-count-spark$sbt_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20170419162220"
+		publication="20170421130522"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

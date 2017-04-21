@@ -15,7 +15,7 @@ object PageCountData extends App{
   val totalPages = pageObject.geTotalPageCount(initialRDD)
   println(s"Total page count is : $totalPages")
 
-  val top10Pages = pageObject.getTopTenPagesByHit(initialRDD)
+  val top10Pages = pageObject.getTopTenHits(initialRDD)
   println("Top 10 pages by hit in the list are :")
   top10Pages.foreach(println(_))
 
